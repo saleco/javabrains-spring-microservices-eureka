@@ -3,13 +3,23 @@ package io.javabrains.moviecatalogservice.models;
 import java.util.List;
 
 public class UserRating {
-    private List<Rating> userRating;
+    private String userId;
 
-    public List<Rating> getUserRating() {
-        return userRating;
+    private List<Rating> ratings;
+
+    public List<Rating> getRatings() {
+        return ratings;
     }
 
-    public void setUserRating(List<Rating> userRating) {
-        this.userRating = userRating;
+    public void setRatings(List<Rating> ratings) {
+        this.ratings = ratings;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 }

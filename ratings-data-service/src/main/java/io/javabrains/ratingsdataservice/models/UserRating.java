@@ -3,13 +3,13 @@ package io.javabrains.ratingsdataservice.models;
 import java.util.List;
 
 public class UserRating {
-    private List<Rating> userRating;
+    private List<Rating> ratings;
 
-    public List<Rating> getUserRating() {
-        return userRating;
+    public List<Rating> getRatings() {
+        return ratings;
     }
 
-    public void setUserRating(List<Rating> userRating) {
-        this.userRating = userRating;
+    public void setRatings(List<Rating> ratings) {
+        this.ratings = ratings;
     }
 }
